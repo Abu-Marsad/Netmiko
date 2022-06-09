@@ -2,6 +2,7 @@ from netmiko import ConnectHandler
 #first configure ssh on your routers with the same subnet on your ubuntu and hypervisor 
 #verify ping is successful
 #then add assigned ip address along the devices (R1 R2,....) IN DNS of ubunto in /etc/hosts 
+#I have modified this code of https://github.com/IPvZero/IPvZero
 devices = '''
 R1
 R2
