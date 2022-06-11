@@ -15,7 +15,7 @@ R8
 '''.strip().splitlines()
 
 device_type = 'cisco_ios'
-username = 'john'
+username = 'marsad'
 password = 'cisco'
 verbose = True
 
